@@ -604,7 +604,7 @@ class HtmlParser extends StatelessWidget {
           break;
       }
       tree.style.markerContent = Text(
-          marker,
+          marker,style:TextStyle(color: Colors.white, fontSize:18),
           textAlign: TextAlign.right,
       );
     }
